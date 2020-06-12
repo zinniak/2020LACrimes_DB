@@ -28,7 +28,9 @@ Below is a set of questions that can be answered from the data and the SQL queri
 10.	We want to know the monthly trend of when robberies occur. For each month, what is the number of crimes that occurred in the ‘Robbery’ category?
 
 
-## ERD DIAGRAM
+## ENTITY RELATIONSHIP DIARGRAM (ERD)
+
+![ERD](images/erd.png)
 
 
 ## DATABASE CREATION DECISION OUTLINE
