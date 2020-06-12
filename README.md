@@ -1,4 +1,4 @@
-# 2020_LACrimes_DB
+# 2020 LA Crimes Database
 SQL Database and queries
 
 This is a database created using python and MySQL for a subset of Los Angeles Crime Data from 2019-2020.
