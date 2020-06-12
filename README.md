@@ -1,7 +1,20 @@
 # 2020LACrimes_DB
 SQL Database and queries
 
-This is a database created using MYSQL for a subset of Los Angeles Crime Data from 2019-2020.
+This is a database created using python and SQL for a subset of Los Angeles Crime Data from 2019-2020.
+
+## DATA SOURCES
+
+- Crime reports: [LA City](https://data.lacity.org/A-Safe-City/Crime-Data-from-2010-to-2019/63jg-8b9z)
+- Demographics: [Think Health LA](https://www.thinkhealthla.org/demographicdata?id=256&sectionId=941#sectionPiece_197)
+- Area crime statistics: [LAPD online](http://www.lapdonline.org/crime_mapping_and_compstat)
+
+## PROCESS
+
+- **Data cleaning/subsetting:** Python
+- **Foreign Key Creation:** Python
+- **Data Import:** MySQL/Data Grip
+
 
 ## SAMPLE QUERIES
 
