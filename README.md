@@ -10,9 +10,10 @@ Below is a set of questions that can be answered from the data and the SQL queri
 ### Where Crimes are Being Reported
 
 1.  Which cross street has had the most reported crime incidences? And what percentage of total reported crimes did it have?
+    `mysql> select cross_st,count(cross_st) as num_reports,count(cross_st)*100/(select count(1) from reports) as percent from reports group by cross_st order by num_reports desc limit 1;`
 2.	What are the top 5 areas with the most crimes in 2019?
 3.	What 5 premise types have the most crimes?
-4.	The areas_2018 table has total counts of confirmed violent and property crimes by area in 2018. Using the areas_2018 table as an estimate, what percent of violent crimes reported in 2019 might be actual occurrences of crime?
+4.	The *areas_2018* table has total counts of confirmed violent and property crimes by area in 2018. Using the *areas_2018* table as an estimate, what percent of violent crimes reported in 2019 might be actual occurrences of crime?
 
 ### Demographic Questions
 
